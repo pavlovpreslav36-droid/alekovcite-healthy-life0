@@ -1,0 +1,7 @@
+/* Global styles */
+:root{--card:#ffffff}
+body{font-family:Inter,system-ui,Arial,sans-serif;background:#fbfbf9;color:#111}
+
+/* Laser scanner animation */
+#laser{animation: laserMove 1.6s infinite}
+@keyframes laserMove{0%{opacity:0;transform:translateY(-60px)}10%{opacity:1;transform:translateY(-60px)}50%{transform:translateY(0)}90%{opacity:1;transform:translateY(60px)}100%{opacity:0;transform:translateY(60px)}}
